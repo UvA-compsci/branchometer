@@ -1,0 +1,9 @@
+*.o
+branchometer
+Makefile
+#*
+.#*
+moc_*
+qrc_*
+ui_mainwindow.h
+branchometer.app/

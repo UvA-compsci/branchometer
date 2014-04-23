@@ -1,0 +1,30 @@
+Branchometer - a 2D leaf morphometry program
+--------------------------------------------
+
+Code                             Pirom Konglerd 2012-2014
+								 pirom.konglerd@gmail.com
+
+Git repo and linux compilation   Fredrik Jansson
+                                 fjansson@abo.fi				
+
+
+Compiling and dependencies
+--------------------------------
+The program requires Qt4.
+
+#install qmake qt4 and glut, on Debian, Ubuntu and relatives
+sudo aptitude install qt4-qmake qt4-dev-tools freeglut3-dev
+
+# get the source code with git
+git clone https://github.com/UvA-compsci/branchometer.git
+
+#create the make file, on Linux
+qmake -o Makefile branchometer.linux.pro
+
+#create the make file, on OSX
+qmake -o Makefile branchometer.osx.pro
+
+#compile with make
+make
+
+
